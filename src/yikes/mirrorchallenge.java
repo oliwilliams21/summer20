@@ -1,6 +1,6 @@
 package yikes;
 
-public class challenge2 {
+public class mirrorchallenge {
 public static final int SIZE=4;
     public static void main(String[] args)
     {
