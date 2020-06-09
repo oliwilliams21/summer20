@@ -1,6 +1,6 @@
 package yikes;
 public class challenge3 {
-    public static final int SIZE=10;
+    public static final int SIZE=100;
     public static void main(String[] args) {
         line();
         TopBox();
