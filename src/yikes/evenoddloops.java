@@ -6,7 +6,7 @@ public class evenoddloops {
         }
         System.out.println(" ");
         for(int odd=1; odd<=99; odd+=2){
-            System.out.print(odd+" ");
+            System.out.print(" "+odd);
         }
     }
 }
