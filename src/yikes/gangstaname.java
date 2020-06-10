@@ -1,7 +1,5 @@
 package yikes;
-
 import java.util.Scanner;
-
 public class gangstaname {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
@@ -9,10 +7,11 @@ public class gangstaname {
         String name = console.nextLine();
 // split name into first/last name and initials
         String first = name.substring(0, name.indexOf(" "));
-        first = first.toUpperCase();
         String last = name.substring(name.indexOf(" ") + 1);
-        String lInitial = last.substring(0, 1);
-        System.out.println("Your gangsta name is \"" + lInitial +
-                ". Diddy " + first + "-izzle\"");
+        last = last.toUpperCase();
+        String fInitial = first.substring(0, 1);
+//  print out gangstaname output
+        System.out.println("Your gangsta name is \"" + fInitial +
+                ". Diddy " + last + " " + first + "-izzle\"");
     }
 }
