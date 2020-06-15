@@ -23,12 +23,14 @@ public class lettercount {
         char firstletter;
         for (int i = 0; i < firstWord.length(); i++) {
             firstletter = firstWord.charAt(i);
+            while (firstletter !=' ')
             count++;
             String temp = firstWord.substring(i+1);
             int index = temp.indexOf(firstletter);
             System.out.println(temp+index);
             while (index > 0) {
                 count++;
+                temp = temp.substring(i+1);
                 index = firstWord.substring(index+1).indexOf(firstletter);
 //                Delete letter from firstWord
             }
