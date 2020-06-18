@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    System.out.println("Enter meal cost, tip percent, and tax percent:");
+        Double mealCost = input.nextDouble();
+        Integer tipPercent = input.nextInteger();
+        Integer taxPercent = input.nextInteger();
+//        operations
+        double tipTotal = mealCost*(tipPercent/100);
+        double taxTotal = mealCost*(taxPercent/100);
+        double totalCost = tipTotal+taxTotal+mealCost;
+//        print sum
+        System.out.println(totalCost);
+	}
+}
