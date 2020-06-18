@@ -1,3 +1,10 @@
+// import and run Scanner
+// ask user for input
+// use if else statements
+// find a way to differentiate odd numbers
+// loop number through all conditions
+// print out line weird or not
+
 import java.util.Scanner;
 public class Main
 {
