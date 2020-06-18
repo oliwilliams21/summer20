@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    System.out.println("input number between 1 and 137");
+        Integer n = input.nextInteger();
+        if (n>20){
+            System.out.print("not weird");
+        } else if (n>6 && n<20){
+            System.out.print("weird");
+        }
+        if (n % 2 != 0) {
+            System.out.print("weird");
+        } else {
+            System.out.print("not weird");
+        }
+        if (n>2 && n<5) {
+            System.out.print("not weird");
+        }
+	}
+}
