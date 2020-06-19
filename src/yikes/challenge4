@@ -1,0 +1,25 @@
+// create Scanner
+// print words
+// input integers
+// calculate
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner input = new Scanner(System.in);
+	    System.out.printf("Enter meal cost:");
+        Double mealCost = input.nextDouble();
+        System.out.printf("Enter tip percent:");
+        Integer tipPercent = input.nextInteger();
+        System.out.printf("Enter tax percent:");
+        Integer taxPercent = input.nextInteger();
+//       solve(mealCost, tipPercent, taxPercent);
+	}
+	static void solve(double meal_cost, int tip_percent, int tax_percent) { 
+	     double tipTotal = mealCost*(tipPercent/100);
+        double taxTotal = mealCost*(taxPercent/100);
+        double totalCost = tipTotal+taxTotal+mealCost;
+        System.out.println();
+        System.out.print("Here is your total: $" + (int) totalCost);
+	}
+}

@@ -26,7 +26,7 @@ public class extracredit {
         } else if (bmi1>18.5){
             System.out.println("Normal");
         } else if (bmi1<18.5) {
-            System.out.print("Underweight");
+            System.out.println("Underweight");
         }
         System.out.println("Person 2 BMI:" +bmi2);
         if (bmi2>=30){
@@ -36,7 +36,7 @@ public class extracredit {
         } else if (bmi2>18.5){
             System.out.println("Normal");
         } else if (bmi2<18.5) {
-            System.out.print("Underweight");
+            System.out.println("Underweight");
         }
         System.out.println("Difference: "+ (bmi1-bmi2));
     }
