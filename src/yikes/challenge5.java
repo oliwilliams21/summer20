@@ -9,19 +9,22 @@ public class challenge5 {
 // find a way to differentiate odd numbers
 // loop number through all conditions
 // print out line weird or not
+    public static int in;
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
             System.out.println("input number between 1 and 137: ");
             Integer in = input.nextInt();
             if (in < 1 || in > 137) {
-                do {
-                    System.out.print("choose a different number");
-                    System.out.println("input number between 1 and 137: ");
-                    Integer n = input.nextInt();
-                } while (in < 1 || in > 137);
+                  startOver();
             } else if (in > 1 && in < 137) {
-                playGame(int in);
+                playGame(in);
             }
+        }
+        public static void startOver(){
+            Scanner input = new Scanner(System.in);
+            System.out.print("choose a different number");
+            System.out.println("input number between 1 and 137: ");
+            Integer n = input.nextInt();
         }
                 public static void playGame(int in){
             if (in>20){
