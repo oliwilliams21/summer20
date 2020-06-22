@@ -6,6 +6,7 @@ import java.util.*;
 //separate even and odd indexed numbers
 //print on separate lines
 public class stringchallenge {
+    public static Scanner word = new Scanner (System.in);
     public static String wholephrase = word.nextLine();
     public static String odd="";
     public static String even="";
@@ -19,20 +20,18 @@ public class stringchallenge {
         }
 
         System.out.print("what is your word: ");
-        Scanner word = new Scanner (System.in);
         String wholephrase = word.nextLine();
-        String odd="";
-        String even="";}
-
-        public static return letters(){
+        System.out.print(return);
+    }
+    public static String letters (String odd, String even){
         for(int oddindex=1; oddindex<=wholephrase.length(); oddindex+=2){
-                odd= odd+wholephrase.charAt(oddindex);
+            odd= odd+wholephrase.charAt(oddindex);
         }
         System.out.println();
         for(int evenindex=0; evenindex<=wholephrase.length(); evenindex+=2) {
             even= even+wholephrase.charAt(evenindex);
         }
         String answer = even+" "+odd;
-        System.out.print(answer);
-        }
+        return (answer);
+    }
 }
