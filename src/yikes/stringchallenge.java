@@ -11,17 +11,15 @@ public class stringchallenge {
     public static String odd="";
     public static String even="";
     public static void main (String[] args) {
-
         Scanner input = new Scanner(System.in);
         System.out.print("how many words do you want to input(b/t 1 and 10): ");
         int wordcount = input.nextInt();
         for (int line=1; line <= wordcount; wordcount++) {
             String wholephrase;
         }
-
         System.out.print("what is your word: ");
         String wholephrase = word.nextLine();
-        System.out.print(return);
+        return answer;
     }
     public static String letters (String odd, String even){
         for(int oddindex=1; oddindex<=wholephrase.length(); oddindex+=2){
