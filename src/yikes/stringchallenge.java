@@ -19,7 +19,7 @@ public class stringchallenge {
         }
         System.out.print("what is your word: ");
         String wholephrase = word.nextLine();
-        return answer;
+//        return answer;
     }
     public static String letters (String odd, String even){
         for(int oddindex=1; oddindex<=wholephrase.length(); oddindex+=2){
