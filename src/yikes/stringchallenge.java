@@ -6,13 +6,25 @@ import java.util.*;
 //separate even and odd indexed numbers
 //print on separate lines
 public class stringchallenge {
+    public static String wholephrase = word.nextLine();
+    public static String odd="";
+    public static String even="";
     public static void main (String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.print("input word: ");
-        String wholephrase = input.nextLine();
+        System.out.print("how many words do you want to input(b/t 1 and 10): ");
+        int wordcount = input.nextInt();
+        for (int line=1; line <= wordcount; wordcount++) {
+            String wholephrase;
+        }
+
+        System.out.print("what is your word: ");
+        Scanner word = new Scanner (System.in);
+        String wholephrase = word.nextLine();
         String odd="";
-        String even="";
+        String even="";}
+
+        public static return letters(){
         for(int oddindex=1; oddindex<=wholephrase.length(); oddindex+=2){
                 odd= odd+wholephrase.charAt(oddindex);
         }
