@@ -13,7 +13,7 @@ public class arraypractice {
 
         for (int i= 0; i<days; i++){
             temperatures [i]=number.nextInt(85)+25;
-            System.out.println("Day"+ (i+1)+"'s high temp: "+ temperatures[i]);
+            System.out.println("Day "+ (i+1)+"'s high temp: "+ temperatures[i]);
             sum += temperatures[i];
         }
         Double average = (double) sum/days;
