@@ -12,7 +12,9 @@ public class stringchallenge {
     public static String even="";
     public static String answer;
     public static void main (String[] args) {
+//        ask user for word amount
         System.out.print("how many words do you want to input(b/t 1 and 10): ");
+//        scanner
         Scanner input = new Scanner(System.in);
         int wordcount = input.nextInt();
         for (int line=1; line <= wordcount; wordcount++) {
