@@ -7,7 +7,7 @@ public class reversenumbers {
         numbers = reverse(numbers);
        System.out.print(Arrays.toString(numbers));
     }
-    public static int [] reverse (int [] num ){
+    public static int [] reverse (int [] num ){ //reverses the order of the numbers
         for (int i = 0; i<num.length/2; i++){
             int temp = num[i];
             num[i]= num[num.length-1-i];
