@@ -15,10 +15,11 @@ public class challenge3v2 {
 //    concatenate with the string you read as input and print the result on a new line
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-//        declare original variable
+//        declare original variables
         int i = 4;
         double d = 4.0;
         String s = "Greenhill ";
+//        print what user must input
         System.out.println("integer:");
         Integer i2=keyboard.nextInt();
         System.out.println("double:");
@@ -31,6 +32,5 @@ public class challenge3v2 {
         String calc3= s+s2;
 //        print sum
         System.out.printf("%d\n%.1f\n%s\n", calc1, calc2, calc3);
-//
     }
 }
