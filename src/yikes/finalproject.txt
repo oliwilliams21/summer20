@@ -1,9 +1,11 @@
-dog 1 11 cat horse 23.4 99 18 cow 9.6 fish 87 4.0 bird 99.9 77 leopard
-pig
-sheep
-lion
-
-
+dog 1 11 cat horse 23.4 99 18 cow 9.6 fish 87 4.0 bird 99.9 77 leopard 15 tiger 19 30
+pig 2 green 63 strawberry 25 80 raspberry 10 white 84.2
+13 70 sheep 3.1 orange 64 indigo black 48 49
+lion 14 red 60 grape 62.1 antelope grapefruit
+lizard 1.1 pink 59 20 rhino berry deer lavender mango
+shark 40 39.7 yellow 57.5 peach 21.1 hippo 33.3 brown 16 66.6 rabbit
+hamster 90 blue pineapple 64 banana 69 fish
+frog 11.9 purple 26 violet 36 90 apple 81 cherry
 
 
 
