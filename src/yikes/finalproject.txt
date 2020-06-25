@@ -1,0 +1,19 @@
+dog 1 11 cat horse 23.4 99 18 cow 9.6 fish 87 4.0 bird 99.9 77 leopard
+pig
+sheep
+lion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
