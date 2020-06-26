@@ -10,5 +10,12 @@ public class filetesting {
             System.out.println(text);
         }
         input.close();
+        trial();
+    }
+    public static void trial(){
+        System.out.println("*****************************");
+        System.out.println("* Thank you for your time  *");
+        System.out.println("*This is your final score: 7" +"*");
+        System.out.println("*****************************");
     }
 }
