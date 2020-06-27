@@ -5,7 +5,7 @@ import java.util.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import javax.swing.*;
-/*
+/* 
 import all the classes
 import the image
 delcare your varibles- like score and scanner and count
